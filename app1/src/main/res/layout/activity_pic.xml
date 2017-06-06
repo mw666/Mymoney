@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ori_btn"
+    android:textColor="@color/colorAccent"
+    android:textSize="16sp"
+    android:text="ori_btn"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/suo_btn"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:text="suo_btn"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/shangchuan_btn"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:text="shangchuan_btn"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/shangchuan_pics"
+        />
+</LinearLayout>

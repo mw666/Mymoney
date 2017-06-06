@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="honghu.com.test">
+
+    <!-- 手机震动权限 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 读写sd卡的权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <!-- 在sdcard中创建/删除文件的权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Pic_Activity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".Main5Activity" />
+        <activity android:name=".Main6Activity" />
+        <activity android:name=".Main7Activity" />
+        <activity android:name=".Main8Activity" />
+        <activity android:name=".WangActivity" />
+        <activity android:name=".Main9Activity" />
+        <!-- <activity android:name=".camera.Pic_Activity"> -->
+
+
+        <!-- </activity> -->
+        <activity android:name=".camera.Camera" />
+        <activity android:name=".camera.PaizhaoActivity" />
+        <activity android:name=".TestNewFileActivity" />
+        <activity android:name=".camera.Main10Activity" />
+        <activity android:name=".Shangchuan_Activity" />
+        <activity android:name=".camera.RemindActivity" />
+        <activity android:name=".camera.Lesson_01_Pic" />
+        <activity android:name=".Main11Activity" />
+        <activity android:name=".Main12Activity" />
+        <activity android:name=".Main13Activity" />
+        <activity android:name=".Main14Activity" />
+        <activity android:name=".take.Main15Activity" />
+        <activity android:name=".take.SelectPicActivity" />
+        <activity android:name=".camera.ZidingyiActivity" />
+        <activity android:name=".testphoto.AutoTakePhoto" />
+        <activity android:name=".base.BaseActivity" />
+        <activity android:name=".Main16Activity" />
+        <activity android:name=".call.CallActivity"></activity>
+        <activity android:name=".photo.SelPicsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".photo.ImgFileListActivity" />
+        <activity android:name=".photo.ImgsActivity" />
+        <activity android:name=".Main17Activity"></activity>
+    </application>
+
+</manifest>

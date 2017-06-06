@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" 
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.tuofu.lenovo.myone.MainActivity">
+
+    <ListView
+        android:layout_weight="1"
+        android:id="@+id/lv"
+        android:divider="@android:drawable/list_selector_background"
+        android:dividerHeight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </ListView>
+
+    <LinearLayout
+    android:gravity="bottom|center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:hint="请输入"
+            android:layout_weight="1"
+            android:textColorHint="@android:color/holo_orange_light"
+            android:id="@+id/gettext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_toEndOf="@id/gettext"
+            android:id="@+id/bt"
+            android:text="发送"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
